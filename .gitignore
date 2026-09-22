@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# music-organizer runtime output
+.music_organizer_cache.json
+music_organizer_report.json

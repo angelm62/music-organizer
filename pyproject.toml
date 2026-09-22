@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "music-organizer"
+version = "0.1.0"
+description = "Reorganize a music library into Artist/Album folders and fix tags using MusicBrainz + a local Ollama model."
+requires-python = ">=3.9"
+dependencies = [
+    "mutagen>=1.47",
+    "requests>=2.31",
+    "rapidfuzz>=3.6",
+    "rich>=13.7",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+music-organizer = "music_organizer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["music_organizer*"]
