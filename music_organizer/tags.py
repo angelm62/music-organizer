@@ -34,6 +34,12 @@ class TrackTags:
     def is_mostly_complete(self) -> bool:
         return bool(self.artist and self.title)
 
+    def is_fully_tagged(self) -> bool:
+        """True if the file's own tags are complete enough to organize by directly,
+        with no MusicBrainz lookup needed (and no risk of MusicBrainz's fuzzy
+        matching swapping in a wrong album/track for an otherwise-fine file)."""
+        return bool(self.artist and self.title and self.album and self.tracknumber)
+
     def merged_with(self, other: "TrackTags") -> "TrackTags":
         """Return a copy of self with blanks filled in from `other`."""
         kwargs = {}
@@ -47,7 +53,33 @@ def _ext(path: str) -> str:
     return os.path.splitext(path)[1].lower()
 
 
+def _is_io_error(exc: BaseException) -> bool:
+    """True if `exc` is, or wraps, an OSError (missing file, permission denied,
+    dropped network share, etc.) rather than a genuine "this file's tags/headers
+    are corrupt" parsing failure. mutagen wraps the underlying OSError in its own
+    MutagenError rather than subclassing OSError, so a plain isinstance check on
+    the caught exception isn't enough -- its __cause__/__context__ has to be
+    checked too."""
+    seen: set[int] = set()
+    current: Optional[BaseException] = exc
+    while current is not None and id(current) not in seen:
+        if isinstance(current, OSError):
+            return True
+        seen.add(id(current))
+        current = current.__cause__ or current.__context__
+    return False
+
+
 def read_tags(path: str) -> TrackTags:
+    """Read tags from `path`.
+
+    Deliberately lets OSError (file vanished, permission denied, network share
+    dropped mid-read, etc.) propagate instead of swallowing it: a track that
+    genuinely has no tags and a track that couldn't be *read* need different
+    handling upstream -- treating a dropped NAS mount as "this file has no
+    metadata" silently turns a connectivity problem into hundreds of bogus
+    "no match found" results with no indication anything was wrong.
+    """
     ext = _ext(path)
     try:
         if ext == ".wma":
@@ -81,7 +113,9 @@ def read_tags(path: str) -> TrackTags:
             date=_year_only(first("date")),
             genre=first("genre"),
         )
-    except Exception:
+    except Exception as exc:
+        if _is_io_error(exc):
+            raise OSError(str(exc)) from exc
         return TrackTags()
 
 

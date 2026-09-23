@@ -1,0 +1,384 @@
+[
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/12  Empty Spaces (II).flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-08 - Empty Spaces.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Empty Spaces",
+      "tracknumber": "8",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 88,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/24  In The Flesh (II).flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-01 - In the Flesh_.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "In the Flesh?",
+      "tracknumber": "1",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 88,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/22  Hey You.flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/2-01 - Hey You.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Hey You",
+      "tracknumber": "1",
+      "totaltracks": "13",
+      "discnumber": "2",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/03  Another Brick In The Wall (part 1).flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-03 - Another Brick in the Wall, Pt. 1.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Another Brick in the Wall, Pt. 1",
+      "tracknumber": "3",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 96,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/07  Goodbye Blue Sky.flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-07 - Goodbye Blue Sky.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Goodbye Blue Sky",
+      "tracknumber": "7",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/13  What Shall We Do Now.flac",
+    "new_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/13  What Shall We Do Now.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "What Shall We Do Now",
+      "tracknumber": null,
+      "totaltracks": null,
+      "discnumber": null,
+      "date": "2012",
+      "genre": null
+    },
+    "status": "unmatched",
+    "confidence": 52,
+    "notes": [
+      "Could not confidently match this track's title within the release"
+    ],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/20  Is There Anybody Out There (III).flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/2-02 - Is There Anybody Out There_.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Is There Anybody Out There?",
+      "tracknumber": "2",
+      "totaltracks": "13",
+      "discnumber": "2",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 92,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/15  Goodbye Cruel World.flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-13 - Goodbye Cruel World.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Goodbye Cruel World",
+      "tracknumber": "13",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/06  Mother.flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/1-06 - Mother.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Mother",
+      "tracknumber": "6",
+      "totaltracks": "13",
+      "discnumber": "1",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/Pink Floyd - The Wall - Under Construction (2014).FLAC/25  Run Like Hell.flac",
+    "new_path": "/Volumes/Media/Music/ピンク・フロイド/The Wall (2012)/2-09 - Run Like Hell.flac",
+    "tags": {
+      "artist": "Pink Floyd",
+      "albumartist": "ピンク・フロイド",
+      "album": "The Wall",
+      "title": "Run Like Hell",
+      "tracknumber": "9",
+      "totaltracks": "13",
+      "discnumber": "2",
+      "date": "2012",
+      "genre": null
+    },
+    "status": "ai_matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "f2026101-945b-3d05-9ef4-aa718fc3feef"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/12. Angels Too Tied To The Ground.flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/2-02 - Angels Too Tied to the Ground.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "Angels Too Tied to the Ground",
+      "tracknumber": "2",
+      "totaltracks": "12",
+      "discnumber": "2",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/08. With A Shout.flac",
+    "new_path": "/Volumes/Media/Music/U2/October (2008)/08 - With a Shout.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "October",
+      "title": "With a Shout",
+      "tracknumber": "8",
+      "totaltracks": "11",
+      "discnumber": "1",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "87febb2c-e117-3a0d-a7f6-8fd9a6421af1"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/09. Surrender.flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/1-09 - Surrender.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "Surrender",
+      "tracknumber": "9",
+      "totaltracks": "10",
+      "discnumber": "1",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/04. Walk On.flac",
+    "new_path": "/Volumes/Media/Music/U2/All That You Can’t Leave Behind (2020)/04 - Walk On.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "All That You Can’t Leave Behind",
+      "title": "Walk On",
+      "tracknumber": "4",
+      "totaltracks": "12",
+      "discnumber": "1",
+      "date": "2020",
+      "genre": "Alternative Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "88c59b55-200d-3ac1-beff-8eb99830807e"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/03. I Threw A Brick Through A Window.flac",
+    "new_path": "/Volumes/Media/Music/U2/October (2008)/03 - I Threw a Brick Through a Window.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "October",
+      "title": "I Threw a Brick Through a Window",
+      "tracknumber": "3",
+      "totaltracks": "11",
+      "discnumber": "1",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "87febb2c-e117-3a0d-a7f6-8fd9a6421af1"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/09. When I Look At The World.flac",
+    "new_path": "/Volumes/Media/Music/U2/All That You Can’t Leave Behind (2020)/09 - When I Look at the World.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "All That You Can’t Leave Behind",
+      "title": "When I Look at the World",
+      "tracknumber": "9",
+      "totaltracks": "12",
+      "discnumber": "1",
+      "date": "2020",
+      "genre": "Alternative Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "88c59b55-200d-3ac1-beff-8eb99830807e"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/04. Like A Song....flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/1-04 - Like a Song….flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "Like a Song…",
+      "tracknumber": "4",
+      "totaltracks": "10",
+      "discnumber": "1",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/07. Two Hearts Beat As One.flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/1-07 - Two Hearts Beat as One.flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "Two Hearts Beat as One",
+      "tracknumber": "7",
+      "totaltracks": "10",
+      "discnumber": "1",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 100,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/21. I Threw A Brick Through A Window A Day Without Me (Live).flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/2-11 - I Threw a Brick Through a Window _ A Day Without Me (live from Werchter, Belgium July 1982).flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "I Threw a Brick Through a Window / A Day Without Me (live from Werchter, Belgium July 1982)",
+      "tracknumber": "11",
+      "totaltracks": "12",
+      "discnumber": "2",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 83,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  },
+  {
+    "old_path": "/Volumes/Media/Music/U2/13. New Year's Day (7'' Single Edit).flac",
+    "new_path": "/Volumes/Media/Music/U2/War (2008)/2-03 - New Year’s Day (single edit).flac",
+    "tags": {
+      "artist": "U2",
+      "albumartist": "U2",
+      "album": "War",
+      "title": "New Year’s Day (single edit)",
+      "tracknumber": "3",
+      "totaltracks": "12",
+      "discnumber": "2",
+      "date": "2008",
+      "genre": "Rock"
+    },
+    "status": "matched",
+    "confidence": 96,
+    "notes": [],
+    "release_group_mbid": "c6b36664-7e60-3b3e-a24d-d096c67a11e9"
+  }
+]

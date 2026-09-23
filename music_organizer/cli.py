@@ -5,7 +5,7 @@ import sys
 
 from .cache import JsonCache
 from .config import Config
-from .matcher import match_all
+from .matcher import LibraryUnavailableError, match_all
 from .organizer import apply_plan
 from .planner import build_plan
 from .report import console, print_dry_run, write_report_file
@@ -75,7 +75,15 @@ def main(argv: list[str] | None = None) -> int:
     console.print("Resolving metadata (this respects MusicBrainz's rate limit; large libraries take a while, and reruns reuse the cache)...")
 
     cache = JsonCache(config.cache_path)
-    tracks = match_all(paths, config, cache=cache)
+    try:
+        tracks = match_all(paths, config, cache=cache)
+    except LibraryUnavailableError as exc:
+        console.print(f"\n[bold red]Stopped early:[/bold red] {exc}")
+        console.print(
+            "[yellow]Progress up to this point was saved to the cache[/yellow] -- "
+            "reconnect the share and rerun; already-resolved tracks won't be re-queried."
+        )
+        return 1
     entries = build_plan(tracks, config.library_path)
 
     if args.apply:
